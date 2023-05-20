@@ -8,6 +8,7 @@ import MessageOutlinedIcon from '@mui/icons-material/MessageOutlined';
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 import AddBoxOutlinedIcon from '@mui/icons-material/AddBoxOutlined';
 import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
+import ReadMoreOutlinedIcon from '@mui/icons-material/ReadMoreOutlined';
 
 
 export default class Header extends Component {
@@ -57,13 +58,19 @@ export default class Header extends Component {
               <AccountCircleOutlinedIcon fontSize="large" className='hover:w-9 hover:h-9'/>
               <h6 className='items-center text-center m-2 text-base/4 font-normal'>Profile</h6>
             </div>
+
+            <div className="header__options flex hover:bg-gray-100 rounded-md mt-52 mr-2 h-12 items-center">
+              <ReadMoreOutlinedIcon fontSize="large" className='hover:w-9 hover:h-9'/>
+              <h6 className='items-center text-center m-2 text-base/4 font-normal'>More</h6>
+            </div>
           </div>
         </div>
 
         <div className="header__right bg-red-600 absolute right-0 top-0 mt-10 w-1/3">
-          <div className="header__options">
-            <HomeIcon fontSize="large"/>
-          </div>
+        <div className="header__options flex hover:bg-gray-100 rounded-md mt-3 mr-2 h-12 items-center">
+              <AccountCircleOutlinedIcon fontSize="large" className='hover:w-9 hover:h-9'/>
+              <h6 className='items-center text-center m-2 text-base/4 font-normal'>Piyumal Nipuna</h6>
+            </div>
           <div className="header__options">
             <SearchIcon fontSize="large" />
           </div>
