@@ -20,59 +20,110 @@ export default class Header extends Component {
 
           <div className="header__middle">
             <div className="header__options flex hover:bg-gray-100 rounded-md mt-16 mb-3 mr-2 h-12 items-center">
-              <HomeIcon fontSize="large" className='hover:w-9 hover:h-9' />
-              <h6 className='items-center text-center m-2 text-base/4 font-normal'>Home</h6>
+              <HomeIcon fontSize="large" className="hover:w-9 hover:h-9" />
+              <h6 className="items-center text-center m-2 text-base/4 font-normal">
+                Home
+              </h6>
             </div>
 
             <div className="header__options flex hover:bg-gray-100 rounded-md mt-3 mr-2 h-12 items-center">
-              <SearchIcon fontSize="large" className='hover:w-9 hover:h-9'/>
-              <h6 className='items-center text-center m-2 text-base/4 font-normal'>Search</h6>
+              <SearchIcon fontSize="large" className="hover:w-9 hover:h-9" />
+              <h6 className="items-center text-center m-2 text-base/4 font-normal">
+                Search
+              </h6>
             </div>
 
             <div className="header__options flex hover:bg-gray-100 rounded-md mt-3 mr-2 h-12 items-center">
-              <ExploreOutlinedIcon fontSize="large" className='hover:w-9 hover:h-9'/>
-              <h6 className='items-center text-center m-2 text-base/4 font-normal'>Explore</h6>
+              <ExploreOutlinedIcon
+                fontSize="large"
+                className="hover:w-9 hover:h-9"
+              />
+              <h6 className="items-center text-center m-2 text-base/4 font-normal">
+                Explore
+              </h6>
             </div>
 
             <div className="header__options flex hover:bg-gray-100 rounded-md mt-3 mr-2 h-12 items-center">
-              <VideoLibraryOutlinedIcon fontSize="large" className='hover:w-9 hover:h-9'/>
-              <h6 className='items-center text-center m-2 text-base/4 font-normal'>Reels</h6>
+              <VideoLibraryOutlinedIcon
+                fontSize="large"
+                className="hover:w-9 hover:h-9"
+              />
+              <h6 className="items-center text-center m-2 text-base/4 font-normal">
+                Reels
+              </h6>
             </div>
 
             <div className="header__options flex hover:bg-gray-100 rounded-md mt-3 mr-2 h-12 items-center">
-              <MessageOutlinedIcon fontSize="large" className='hover:w-9 hover:h-9'/>
-              <h6 className='items-center text-center m-2 text-base/4 font-normal'>Massages</h6>
+              <MessageOutlinedIcon
+                fontSize="large"
+                className="hover:w-9 hover:h-9"
+              />
+              <h6 className="items-center text-center m-2 text-base/4 font-normal">
+                Massages
+              </h6>
             </div>
 
             <div className="header__options flex hover:bg-gray-100 rounded-md mt-3 mr-2 h-12 items-center">
-              <FavoriteBorderOutlinedIcon fontSize="large" className='hover:w-9 hover:h-9'/>
-              <h6 className='items-center text-center m-2 text-base/4 font-normal'>Notification</h6>
+              <FavoriteBorderOutlinedIcon
+                fontSize="large"
+                className="hover:w-9 hover:h-9"
+              />
+              <h6 className="items-center text-center m-2 text-base/4 font-normal">
+                Notification
+              </h6>
             </div>
 
             <div className="header__options flex hover:bg-gray-100 rounded-md mt-3 mr-2 h-12 items-center">
-              <AddBoxOutlinedIcon fontSize="large" className='hover:w-9 hover:h-9'/>
-              <h6 className='items-center text-center m-2 text-base/4 font-normal'>Create</h6>
+              <AddBoxOutlinedIcon
+                fontSize="large"
+                className="hover:w-9 hover:h-9"
+              />
+              <h6 className="items-center text-center m-2 text-base/4 font-normal">
+                Create
+              </h6>
             </div>
 
             <div className="header__options flex hover:bg-gray-100 rounded-md mt-3 mr-2 h-12 items-center">
-              <AccountCircleOutlinedIcon fontSize="large" className='hover:w-9 hover:h-9'/>
-              <h6 className='items-center text-center m-2 text-base/4 font-normal'>Profile</h6>
+              <AccountCircleOutlinedIcon
+                fontSize="large"
+                className="hover:w-9 hover:h-9"
+              />
+              <h6 className="items-center text-center m-2 text-base/4 font-normal">
+                Profile
+              </h6>
             </div>
 
             <div className="header__options flex hover:bg-gray-100 rounded-md mt-52 mr-2 h-12 items-center">
-              <ReadMoreOutlinedIcon fontSize="large" className='hover:w-9 hover:h-9'/>
-              <h6 className='items-center text-center m-2 text-base/4 font-normal'>More</h6>
+              <ReadMoreOutlinedIcon
+                fontSize="large"
+                className="hover:w-9 hover:h-9"
+              />
+              <h6 className="items-center text-center m-2 text-base/4 font-normal">
+                More
+              </h6>
             </div>
           </div>
         </div>
 
         <div className="header__right bg-red-600 absolute right-0 top-0 mt-10 w-1/3">
-        <div className="header__options flex hover:bg-gray-100 rounded-md mt-3 mr-2 h-12 items-center">
-              <AccountCircleOutlinedIcon fontSize="large" className='hover:w-9 hover:h-9'/>
-              <h6 className='items-center text-center m-2 text-base/4 font-normal'>Piyumal Nipuna</h6>
-            </div>
-          <div className="header__options">
-            <SearchIcon fontSize="large" />
+          <div className="header__options flex hover:bg-gray-100 rounded-md mt-3 mr-2 h-12 items-center">
+            <AccountCircleOutlinedIcon
+              fontSize="large"
+              className="hover:w-9 hover:h-9"
+            />
+            <h6 className="items-center text-center m-2 text-base/4 font-normal">
+              Piyumal Nipuna
+            </h6>
+          </div>
+          <h5>Suggested for you</h5>
+          <div className="header__options flex hover:bg-gray-100 rounded-md mt-3 mr-2 h-12 items-center">
+            <AccountCircleOutlinedIcon
+              fontSize="large"
+              className="hover:w-9 hover:h-9"
+            />
+            <h6 className="items-center text-center m-2 text-base/4 font-normal">
+              Piyumal Nipuna
+            </h6>
           </div>
         </div>
       </div>
