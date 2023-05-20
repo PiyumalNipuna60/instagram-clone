@@ -122,7 +122,47 @@ export default class Header extends Component {
               className="hover:w-9 hover:h-9"
             />
             <h6 className="items-center text-center m-2 text-base/4 font-normal">
-              Piyumal Nipuna
+              look_hub
+            </h6>
+          </div>
+
+          <div className="header__options flex hover:bg-gray-100 rounded-md mt-3 mr-2 h-12 items-center">
+            <AccountCircleOutlinedIcon
+              fontSize="large"
+              className="hover:w-9 hover:h-9"
+            />
+            <h6 className="items-center text-center m-2 text-base/4 font-normal">
+              look_hub
+            </h6>
+          </div>
+
+          <div className="header__options flex hover:bg-gray-100 rounded-md mt-3 mr-2 h-12 items-center">
+            <AccountCircleOutlinedIcon
+              fontSize="large"
+              className="hover:w-9 hover:h-9"
+            />
+            <h6 className="items-center text-center m-2 text-base/4 font-normal">
+              look_hub
+            </h6>
+          </div>
+
+          <div className="header__options flex hover:bg-gray-100 rounded-md mt-3 mr-2 h-12 items-center">
+            <AccountCircleOutlinedIcon
+              fontSize="large"
+              className="hover:w-9 hover:h-9"
+            />
+            <h6 className="items-center text-center m-2 text-base/4 font-normal">
+              look_hub
+            </h6>
+          </div>
+
+          <div className="header__options flex hover:bg-gray-100 rounded-md mt-3 mr-2 h-12 items-center">
+            <AccountCircleOutlinedIcon
+              fontSize="large"
+              className="hover:w-9 hover:h-9"
+            />
+            <h6 className="items-center text-center m-2 text-base/4 font-normal">
+              look_hub
             </h6>
           </div>
         </div>
