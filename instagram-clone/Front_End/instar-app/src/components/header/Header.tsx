@@ -19,21 +19,21 @@ export default class Header extends Component {
           <h2 className="italic hover:not-italic">Instagram</h2>
 
           <div className="header__middle">
-            <div className="header__options flex hover:bg-gray-100 rounded-md mt-16 mb-3 mr-2 h-12 items-center">
+            <div className="header__options flex hover:bg-gray-100 rounded-md mt-16 mb-3 mr-2 h-12 items-center cursor-pointer">
               <HomeIcon fontSize="large" className="hover:w-9 hover:h-9" />
               <h6 className="items-center text-center m-2 text-base/4 font-normal">
                 Home
               </h6>
             </div>
 
-            <div className="header__options flex hover:bg-gray-100 rounded-md mt-3 mr-2 h-12 items-center">
+            <div className="header__options flex hover:bg-gray-100 rounded-md mt-3 mr-2 h-12 items-center cursor-pointer">
               <SearchIcon fontSize="large" className="hover:w-9 hover:h-9" />
               <h6 className="items-center text-center m-2 text-base/4 font-normal">
                 Search
               </h6>
             </div>
 
-            <div className="header__options flex hover:bg-gray-100 rounded-md mt-3 mr-2 h-12 items-center">
+            <div className="header__options flex hover:bg-gray-100 rounded-md mt-3 mr-2 h-12 items-center cursor-pointer">
               <ExploreOutlinedIcon
                 fontSize="large"
                 className="hover:w-9 hover:h-9"
@@ -43,7 +43,7 @@ export default class Header extends Component {
               </h6>
             </div>
 
-            <div className="header__options flex hover:bg-gray-100 rounded-md mt-3 mr-2 h-12 items-center">
+            <div className="header__options flex hover:bg-gray-100 rounded-md mt-3 mr-2 h-12 items-center cursor-pointer">
               <VideoLibraryOutlinedIcon
                 fontSize="large"
                 className="hover:w-9 hover:h-9"
@@ -53,7 +53,7 @@ export default class Header extends Component {
               </h6>
             </div>
 
-            <div className="header__options flex hover:bg-gray-100 rounded-md mt-3 mr-2 h-12 items-center">
+            <div className="header__options flex hover:bg-gray-100 rounded-md mt-3 mr-2 h-12 items-center cursor-pointer">
               <MessageOutlinedIcon
                 fontSize="large"
                 className="hover:w-9 hover:h-9"
@@ -63,7 +63,7 @@ export default class Header extends Component {
               </h6>
             </div>
 
-            <div className="header__options flex hover:bg-gray-100 rounded-md mt-3 mr-2 h-12 items-center">
+            <div className="header__options flex hover:bg-gray-100 rounded-md mt-3 mr-2 h-12 items-center cursor-pointer">
               <FavoriteBorderOutlinedIcon
                 fontSize="large"
                 className="hover:w-9 hover:h-9"
@@ -73,7 +73,7 @@ export default class Header extends Component {
               </h6>
             </div>
 
-            <div className="header__options flex hover:bg-gray-100 rounded-md mt-3 mr-2 h-12 items-center">
+            <div className="header__options flex hover:bg-gray-100 rounded-md mt-3 mr-2 h-12 items-center cursor-pointer">
               <AddBoxOutlinedIcon
                 fontSize="large"
                 className="hover:w-9 hover:h-9"
@@ -83,7 +83,7 @@ export default class Header extends Component {
               </h6>
             </div>
 
-            <div className="header__options flex hover:bg-gray-100 rounded-md mt-3 mr-2 h-12 items-center">
+            <div className="header__options flex hover:bg-gray-100 rounded-md mt-3 mr-2 h-12 items-center cursor-pointer">
               <AccountCircleOutlinedIcon
                 fontSize="large"
                 className="hover:w-9 hover:h-9"
@@ -93,7 +93,7 @@ export default class Header extends Component {
               </h6>
             </div>
 
-            <div className="header__options flex hover:bg-gray-100 rounded-md mt-52 mr-2 h-12 items-center">
+            <div className="header__options flex hover:bg-gray-100 rounded-md mt-52 mr-2 h-12 items-center cursor-pointer">
               <ReadMoreOutlinedIcon
                 fontSize="large"
                 className="hover:w-9 hover:h-9"
@@ -105,8 +105,11 @@ export default class Header extends Component {
           </div>
         </div>
 
+
+
+
         <div className="header__right bg-red-600 absolute right-0 top-0 mt-10 w-1/3">
-          <div className="header__options flex hover:bg-gray-100 rounded-md mt-3 mr-2 h-12 items-center">
+          <div className="header__options flex hover:bg-gray-100 rounded-md mt-3 mr-2 h-12 items-center cursor-pointer">
             <AccountCircleOutlinedIcon
               fontSize="large"
               className="hover:w-9 hover:h-9"
@@ -118,7 +121,7 @@ export default class Header extends Component {
 
           <h5>Suggested for you</h5>
 
-          <div className="header__options flex hover:bg-gray-100 rounded-md mt-3 mr-2 h-12 items-center">
+          <div className="header__options flex hover:bg-gray-100 rounded-md mt-3 mr-2 h-12 items-center cursor-pointer">
             <AccountCircleOutlinedIcon
               fontSize="large"
               className="hover:w-9 hover:h-9"
@@ -128,7 +131,7 @@ export default class Header extends Component {
             </h6>
           </div>
 
-          <div className="header__options flex hover:bg-gray-100 rounded-md mt-3 mr-2 h-12 items-center">
+          <div className="header__options flex hover:bg-gray-100 rounded-md mt-3 mr-2 h-12 items-center cursor-pointer">
             <AccountCircleOutlinedIcon
               fontSize="large"
               className="hover:w-9 hover:h-9"
@@ -138,7 +141,7 @@ export default class Header extends Component {
             </h6>
           </div>
 
-          <div className="header__options flex hover:bg-gray-100 rounded-md mt-3 mr-2 h-12 items-center">
+          <div className="header__options flex hover:bg-gray-100 rounded-md mt-3 mr-2 h-12 items-center cursor-pointer">
             <AccountCircleOutlinedIcon
               fontSize="large"
               className="hover:w-9 hover:h-9"
@@ -148,7 +151,7 @@ export default class Header extends Component {
             </h6>
           </div>
 
-          <div className="header__options flex hover:bg-gray-100 rounded-md mt-3 mr-2 h-12 items-center">
+          <div className="header__options flex hover:bg-gray-100 rounded-md mt-3 mr-2 h-12 items-center cursor-pointer">
             <AccountCircleOutlinedIcon
               fontSize="large"
               className="hover:w-9 hover:h-9"
@@ -158,7 +161,7 @@ export default class Header extends Component {
             </h6>
           </div>
 
-          <div className="header__options flex hover:bg-gray-100 rounded-md mt-3 mr-2 h-12 items-center">
+          <div className="header__options flex hover:bg-gray-100 rounded-md mt-3 mr-2 h-12 items-center cursor-pointer">
             <AccountCircleOutlinedIcon
               fontSize="large"
               className="hover:w-9 hover:h-9"
