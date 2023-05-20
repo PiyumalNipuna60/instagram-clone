@@ -115,16 +115,8 @@ export default class Header extends Component {
               Piyumal Nipuna
             </h6>
           </div>
+
           <h5>Suggested for you</h5>
-          <div className="header__options flex hover:bg-gray-100 rounded-md mt-3 mr-2 h-12 items-center">
-            <AccountCircleOutlinedIcon
-              fontSize="large"
-              className="hover:w-9 hover:h-9"
-            />
-            <h6 className="items-center text-center m-2 text-base/4 font-normal">
-              look_hub
-            </h6>
-          </div>
 
           <div className="header__options flex hover:bg-gray-100 rounded-md mt-3 mr-2 h-12 items-center">
             <AccountCircleOutlinedIcon
@@ -142,7 +134,7 @@ export default class Header extends Component {
               className="hover:w-9 hover:h-9"
             />
             <h6 className="items-center text-center m-2 text-base/4 font-normal">
-              look_hub
+              acpt_lk
             </h6>
           </div>
 
@@ -152,7 +144,7 @@ export default class Header extends Component {
               className="hover:w-9 hover:h-9"
             />
             <h6 className="items-center text-center m-2 text-base/4 font-normal">
-              look_hub
+              miusoft_games
             </h6>
           </div>
 
@@ -162,7 +154,17 @@ export default class Header extends Component {
               className="hover:w-9 hover:h-9"
             />
             <h6 className="items-center text-center m-2 text-base/4 font-normal">
-              look_hub
+              tailwin_css
+            </h6>
+          </div>
+
+          <div className="header__options flex hover:bg-gray-100 rounded-md mt-3 mr-2 h-12 items-center">
+            <AccountCircleOutlinedIcon
+              fontSize="large"
+              className="hover:w-9 hover:h-9"
+            />
+            <h6 className="items-center text-center m-2 text-base/4 font-normal">
+              React_js
             </h6>
           </div>
         </div>
