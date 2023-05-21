@@ -15,10 +15,10 @@ export default class Header extends Component {
   render() {
     return (
       <div className="header pt-10">
-        <div className="header__left w-1/6  border-r-2 border-gray-400">
+        <div className="header__left w-1/6 fixed border-r-2 border-gray-400">
           <h2 className="italic hover:not-italic">Instagram</h2>
 
-          <div className="header__middle">
+          <div className="header__middle ">
             <div className="header__options flex hover:bg-gray-100 rounded-md mt-16 mb-3 mr-2 h-12 items-center cursor-pointer">
               <HomeIcon fontSize="large" className="hover:w-9 hover:h-9" />
               <h6 className="items-center text-center m-2 text-base/4 font-normal">

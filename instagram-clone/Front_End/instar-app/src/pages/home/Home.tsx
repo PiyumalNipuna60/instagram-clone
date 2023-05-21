@@ -1,13 +1,17 @@
 import React, { Component } from 'react'
 import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
+import Post from '../../components/post';
 
 
 export default class Home extends Component {
   render() {
     return (
       <div>
-        <div className="relative">
-           <div className='header__right fixed left-1/3 top-0  mt-10 w-1/3 bg-red-100'>
+        <div className="">
+           <div className='header__right absolute left-1/3 top-0  mt-10 w-1/4'>
+              <Post />
+              <Post />
+              <Post />
               <Post />
            </div>
         </div>
