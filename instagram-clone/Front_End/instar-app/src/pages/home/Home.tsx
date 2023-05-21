@@ -6,18 +6,26 @@ export default class Home extends Component {
   render() {
     return (
       <div>
-        <div className="header__right bg-red-600 absolute right-0 top-0 mt-10 w-1/3">
+        <div className="relative">
+           <div className='header__right fixed left-1/3 top-0  mt-10 w-1/3 bg-red-100'>
+              <Post />
+           </div>
+        </div>
+
+
+
+
+        <div className="header__right absolute right-0 top-0 mt-10 w-1/3 pl-5">
           <div className="header__options flex hover:bg-gray-100 rounded-md mt-3 mr-2 h-12 items-center cursor-pointer">
-            <AccountCircleOutlinedIcon
-              fontSize="large"
-              className="hover:w-9 hover:h-9"
-            />
+            <div className='rounded-full w-12 h-12 bg-red-300'>
+               
+            </div>
             <h6 className="items-center text-center m-2 text-base/4 font-normal">
               Piyumal Nipuna
             </h6>
           </div>
 
-          <h5>Suggested for you</h5>
+          <h5 className='mt-5'>Suggested for you</h5>
 
           <div className="header__options flex hover:bg-gray-100 rounded-md mt-3 mr-2 h-12 items-center cursor-pointer">
             <AccountCircleOutlinedIcon
